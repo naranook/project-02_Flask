@@ -1,5 +1,6 @@
 from flask import Flask,render_template
-print(dir(Flask))
+import os
+
 
 app = Flask(__name__,template_folder="template")
 
